@@ -78,7 +78,7 @@ def recursionJs(jMatrix):
         counter+=1
     startNode = 0
     numIters=0
-    iterMax=1001#shouldnt change as we go past 2 as we have seen everyones message
+    iterMax=1#shouldnt change as we go past 2 as we have seen everyones message
     iter = 0
     calcDiffs = np.zeros(jMatrix.shape)
     #print(jMatrix)
